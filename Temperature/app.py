@@ -26,4 +26,4 @@ while True:
 
     mqtt_client.publish(client_telemetry_topic, telemetry)
 
-    time.sleep(3600)
+    time.sleep(600)
